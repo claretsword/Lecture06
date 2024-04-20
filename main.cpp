@@ -57,10 +57,6 @@ int initialize()
 	temp[2] = new Star();
 	temp[3] = new Star();
 
-	list.push_back(temp[0]);
-	list.push_back(temp[1]);
-	list.push_back(temp[2]);
-	list.push_back(temp[3]);
 		
 	return 0;
 }
