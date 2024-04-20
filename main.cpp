@@ -17,7 +17,7 @@
 
 #include <GLFW/glfw3.h>
 #include <iostream>
-#include <vector>
+#include "MSList.h"
 
 #include "Star.hpp"
 
@@ -46,7 +46,7 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
 }
 
 
-std::vector<MObject*> list;
+MSList<MObject*> list;
 
 int initialize()
 {
